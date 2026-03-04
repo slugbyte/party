@@ -174,3 +174,5 @@ zig-out/
 
 # End of https://www.toptal.com/developers/gitignore/api/zig,c,c++,go,linux,macos,windows
 
+# Dependency tarballs
+*.tar.xz

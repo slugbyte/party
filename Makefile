@@ -31,7 +31,7 @@ release: ensure_gh
 	assets=$$(ls -1 *.tar.xz 2>/dev/null | tr '\n' ' '); \
 	git add README.md Makefile; \
 	git commit -m "$$tag" -m "- Updated latest release" -m "- Assets: $$assets"; \
-	git push
+	git push -u origin main
 
 readme: readme-update
 

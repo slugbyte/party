@@ -1,6 +1,6 @@
 SHELL := /bin/bash
 
-.PHONY: release readme readme-update ensure_gh
+.PHONY: release readme-update ensure_gh
 
 ensure_gh:
 	@command -v gh >/dev/null 2>&1 || { echo "gh is required (https://cli.github.com/)"; exit 1; }
@@ -32,8 +32,6 @@ release: ensure_gh
 	git add README.md Makefile; \
 	git commit -m "$$tag" -m "- Updated latest release" -m "- Assets: $$assets"; \
 	git push -u origin main
-
-readme: readme-update
 
 readme-update: ensure_gh
 	@repo=$$(gh repo view --json nameWithOwner --jq .nameWithOwner); \

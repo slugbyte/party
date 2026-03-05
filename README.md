@@ -1,6 +1,6 @@
 # party
 
-Vendored C dependency tarballs for [paint](https://github.com/slugbyte/paint).
+Vendored C dependency tarballs.
 
 ## Usage
 

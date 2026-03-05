@@ -25,7 +25,7 @@ release: ensure_gh
 		gh release delete "latest" --yes --cleanup-tag; \
 	fi; \
 	echo "Creating release latest"; \
-	gh release create "latest" $$assets --title "latest" --notes "Latest vendored tarballs for paint"; \
+	gh release create "latest" $$assets --title "latest" --notes "Latest vendored C dependency tarballs"; \
 	$(MAKE) readme-update
 	@tag=$$(date +%F); \
 	assets=$$(ls -1 *.tar.xz 2>/dev/null | tr '\n' ' '); \
@@ -37,7 +37,7 @@ readme-update: ensure_gh
 	@repo=$$(gh repo view --json nameWithOwner --jq .nameWithOwner); \
 	tmp=$$(mktemp); \
 	printf "# party\n\n" > "$$tmp"; \
-	printf "Vendored C dependency tarballs for [paint](https://github.com/slugbyte/paint).\n\n" >> "$$tmp"; \
+	printf "Vendored C dependency tarballs.\n\n" >> "$$tmp"; \
 	printf "## Usage\n\n" >> "$$tmp"; \
 	printf "Use the \`latest\` URLs below in \`build.zig.zon\` dependency declarations.\n" >> "$$tmp"; \
 	printf "These URLs are stable and only change when a library version is updated.\n\n" >> "$$tmp"; \

@@ -24,6 +24,7 @@ https://github.com/slugbyte/party/releases/download/latest/freetype-2.14.1.tar.x
 https://github.com/slugbyte/party/releases/download/latest/glad-2.0.8.tar.xz
 https://github.com/slugbyte/party/releases/download/latest/harfbuzz-12.3.2.tar.xz
 https://github.com/slugbyte/party/releases/download/latest/libpng-1.6.50.tar.xz
+https://github.com/slugbyte/party/releases/download/latest/libpng-1.6.55.tar.xz
 https://github.com/slugbyte/party/releases/download/latest/libunibreak-6.1.tar.xz
 https://github.com/slugbyte/party/releases/download/latest/libxml2-v2.15.2.tar.xz
 https://github.com/slugbyte/party/releases/download/latest/stb_image-2.29.tar.xz
@@ -38,6 +39,7 @@ https://github.com/slugbyte/party/releases/download/2026-03-05/freetype-2.14.1.t
 https://github.com/slugbyte/party/releases/download/2026-03-05/glad-2.0.8.tar.xz
 https://github.com/slugbyte/party/releases/download/2026-03-05/harfbuzz-12.3.2.tar.xz
 https://github.com/slugbyte/party/releases/download/2026-03-05/libpng-1.6.50.tar.xz
+https://github.com/slugbyte/party/releases/download/2026-03-05/libpng-1.6.55.tar.xz
 https://github.com/slugbyte/party/releases/download/2026-03-05/libunibreak-6.1.tar.xz
 https://github.com/slugbyte/party/releases/download/2026-03-05/libxml2-v2.15.2.tar.xz
 https://github.com/slugbyte/party/releases/download/2026-03-05/stb_image-2.29.tar.xz

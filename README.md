@@ -19,7 +19,6 @@ This creates a dated snapshot release and updates the `latest` release.
 ## latest
 
 ```
-https://github.com/slugbyte/party/releases/download/latest/expat-2.7.4.tar.xz
 https://github.com/slugbyte/party/releases/download/latest/fontconfig-2.17.1.tar.xz
 https://github.com/slugbyte/party/releases/download/latest/freetype-2.14.1.tar.xz
 https://github.com/slugbyte/party/releases/download/latest/glad-2.0.8.tar.xz
@@ -34,7 +33,6 @@ https://github.com/slugbyte/party/releases/download/latest/zlib-1.3.1.tar.xz
 ## 2026-03-05
 
 ```
-https://github.com/slugbyte/party/releases/download/2026-03-05/expat-2.7.4.tar.xz
 https://github.com/slugbyte/party/releases/download/2026-03-05/fontconfig-2.17.1.tar.xz
 https://github.com/slugbyte/party/releases/download/2026-03-05/freetype-2.14.1.tar.xz
 https://github.com/slugbyte/party/releases/download/2026-03-05/glad-2.0.8.tar.xz
